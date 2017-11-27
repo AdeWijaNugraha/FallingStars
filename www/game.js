@@ -28,7 +28,7 @@
 	function drawSmiley(x,y){
 	ctx.beginPath();
 	r=c.width*0.05;
-	ctx.fillStyle="green";
+	ctx.fillStyle="orange";
 	ctx.arc(x, y, r, 0, 2 * Math.PI);
 	ctx.moveTo((x-0.5*r), (y-0.25*r));
 	ctx.arc((x-0.5*r), (y-0.25*r), 0.2*r, 0, 2 * Math.PI);
@@ -43,9 +43,9 @@
 	//MEMBENTUK POIN
 	function drawPoin() 
 	{
-	ctx.fillStyle="white";
+	ctx.fillStyle="black";
 	ctx.fillRect(c.width*0.74,12, 60, 10);
-	ctx.fillStyle="RED";
+	ctx.fillStyle="orange";
 	ctx.fillText("POIN="+poin,c.width*0.75,20);
 	}
 
